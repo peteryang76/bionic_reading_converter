@@ -20,10 +20,11 @@ git clone https://github.com/peteryang76/bionic_reading_converter.git
 ```bash
 pip install PyPDF2, reportlab
 ```
-3. Put original files into folder 'orig'
-4. Run the project
+
+## Usage
+1. Put original files into folder 'orig'
+2. Run the project
 ```bash
 py converter.py
 ```
-
-The resulted file will be named as 'bionic_' + <original_file_name> and be stored in '/bionic'
+3. The resulted file will be named as 'bionic_' + <original_file_name> and be stored in '/bionic'
