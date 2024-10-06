@@ -9,5 +9,21 @@ As the optimal viewing position effect suggests, the optimal position for our ey
 
 ## Does it work?
 Some studies suggests that this method improves reading abilities of students (Ariyani, 2023) while others does not find any difference in reading time between bionic reading and traditional reading (Snell, 2024).   
-**I will not question the effect of this method here, but rather provide a tool to convert text into bionic reading formatting.**
+**I will not question the effect of this method here, but rather providing a tool to convert text into bionic reading formatting.**
 
+## Installation
+1. Clone the repository: 
+```bash
+git clone https://github.com/peteryang76/bionic_reading_converter.git
+```
+2. Install dependencies:
+```bash
+pip install PyPDF2, reportlab
+```
+3. Put original files into folder 'orig'
+4. Run the project
+```bash
+py converter.py
+```
+
+The resulted file will be named as 'bionic_' + <original_file_name> and be stored in '/bionic'
