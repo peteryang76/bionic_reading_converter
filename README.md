@@ -18,7 +18,7 @@ git clone https://github.com/peteryang76/bionic_reading_converter.git
 ```
 2. Install dependencies:
 ```bash
-pip install PyPDF2, reportlab
+pip install pdfminer.six, reportlab
 ```
 
 ## Usage
